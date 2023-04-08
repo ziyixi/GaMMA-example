@@ -18,6 +18,3 @@ To run the example, run the following command in the terminal:
 ```
 poetry run python test_gamma.py
 ```
-
-## Note
-The eikonal solver will be rerun when switching from the global option to the local option due to a bug in storing the time table in @Aaaapril4's version. It's not a critical one and will not influence the result. The bug will be fixed in the future.
