@@ -94,9 +94,9 @@ tqdm = "*"
 
 [package.source]
 type = "git"
-url = "https://github.com/AI4EPS/GaMMA.git"
+url = "https://github.com/ziyixi/GaMMA.git"
 reference = "HEAD"
-resolved_reference = "47446d988e2697a6ca794c93deb0f0281d12f0fd"
+resolved_reference = "3450396ee74a4ac271c0e4352fc6581d6f7c904a"
 
 [[package]]
 name = "isort"
@@ -660,7 +660,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "c90de174011292f36adb7cbc8ebe01c0cff99c32eefdc63af75f088802632b87"
+content-hash = "c98fb48e7c626df20583fc7adf8371cb3fddbc77929efa6b4daee39562217840"
 
 [metadata.files]
 astroid = [
