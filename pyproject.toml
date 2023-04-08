@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "debug-gamma"
+version = "0.1.0"
+description = ""
+authors = ["Ziyi Xi <ziyixi@mail.ustc.edu.cn>"]
+readme = "README.md"
+packages = [{include = "debug_gamma"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+torch = "^2.0.0"
+tqdm = "^4.65.0"
+numba = "^0.56.4"
+gmma = {git = "https://github.com/AI4EPS/GaMMA.git"}
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+pylint = "^2.17.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
