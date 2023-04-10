@@ -65,7 +65,7 @@ def main():
                         "xlim": config["x(km)"], "ylim": config["y(km)"], "zlim": config["z(km)"]}
     config["covariance_prior"] = [120, 120]
 
-    config["ncpu"]=1
+    config["ncpu"]=8
 
     # * prepare stations
     stations_mapper = {}
