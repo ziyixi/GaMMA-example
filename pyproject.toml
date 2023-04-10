@@ -19,6 +19,12 @@ gmma = {git = "https://github.com/ziyixi/GaMMA.git"}
 autopep8 = "^2.0.2"
 pylint = "^2.17.2"
 
+
+[tool.poetry.group.visualize.dependencies]
+ipykernel = "^6.22.0"
+seaborn = "^0.12.2"
+pygmt = "^0.9.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
